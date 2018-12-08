@@ -1,9 +1,8 @@
 body {
     background-color: whitesmoke;
-    margin:0 auto
-  
+    margin:0 auto 
 }
-.degrade{
+.navbar{
     background-color: rgb(247, 47, 101);
     height:100px;
     width:100%;
@@ -15,33 +14,33 @@ body {
     margin-left: 25px;
 }
 #logo {
-    width: 50px;
+    width: 35px;
     margin-left: 30px;
 }
 .main{
     background-image:url("https://cdn.dribbble.com/users/1192941/screenshots/3464129/daily-ui-042.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     opacity:0.7;
+    margin:40px;
 }
-.image:hover{
+.main:hover{
     opacity:1.0;
 }
-#text1{
+#text{
     width:100%;
     height:50px;
     font-size: 15px;
     margin:15px;
     padding:20px; 
 }
-
-.text{
+.done{
     text-decoration: line-through;
     float: right;
     clear:right;
     width: 40%;
-    background-color: rgba(255, 0, 0, 0.863);
+    background-color: rgba(252, 60, 60, 0.863);
     border-radius: 5px;
     position: relative;
     display: flex;
@@ -56,7 +55,7 @@ li{
     list-style: none;
     position: relative;
 }
-.done{
+.div{
     height: 700px;
     width:200px;
 }
@@ -64,7 +63,7 @@ li{
     position: absolute;
     right: 0px;
     padding-right: 15px;
-    width: 20px;
+    width: 15px;
     margin-top: 18px;
 }
 #add-btn {
@@ -74,11 +73,11 @@ li{
 }
 .container {
     display: flex; 
-    margin: 35px;
-    border: 2px solid rgb(242, 128, 6);
+    margin: 15px;
+    border: 1px solid rgb(242, 128, 6);
 }
 .todo {
-    background-color: rgba(255, 123, 0, 0.774);
+    background-color: rgba(255, 145, 42, 0.774);
     border-radius: 5px;
     position:relative; 
     display: flex; 
